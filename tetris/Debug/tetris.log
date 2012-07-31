@@ -1,0 +1,52 @@
+﻿Build started 7/31/2012 2:27:02 AM.
+     1>Project "C:\Users\Travis\Documents\School Files\COP1000\Projects\tetris\tetris\tetris.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\tetris.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D SFML_STATIC /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Brick.cpp main.cpp TetrisFunctions.cpp
+         TetrisFunctions.cpp
+     1>c:\users\travis\documents\school files\cop1000\projects\tetris\tetris\tetrisfunctions.cpp(637): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\travis\documents\school files\cop1000\projects\tetris\tetris\tetrisfunctions.cpp(659): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\travis\documents\school files\cop1000\projects\tetris\tetris\tetrisfunctions.cpp(683): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\travis\documents\school files\cop1000\projects\tetris\tetris\tetrisfunctions.cpp(709): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\travis\documents\school files\cop1000\projects\tetris\tetris\tetrisfunctions.cpp(735): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\travis\documents\school files\cop1000\projects\tetris\tetris\tetrisfunctions.cpp(752): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\travis\documents\school files\cop1000\projects\tetris\tetris\tetrisfunctions.cpp(771): warning C4018: '<' : signed/unsigned mismatch
+         main.cpp
+     1>c:\users\travis\documents\school files\cop1000\projects\tetris\tetris\main.cpp(28): warning C4482: nonstandard extension used: enum 'main::GameState' used in qualified name
+     1>c:\users\travis\documents\school files\cop1000\projects\tetris\tetris\main.cpp(112): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\travis\documents\school files\cop1000\projects\tetris\tetris\main.cpp(137): warning C4482: nonstandard extension used: enum 'main::GameState' used in qualified name
+     1>c:\users\travis\documents\school files\cop1000\projects\tetris\tetris\main.cpp(152): warning C4482: nonstandard extension used: enum 'main::GameState' used in qualified name
+     1>c:\users\travis\documents\school files\cop1000\projects\tetris\tetris\main.cpp(171): warning C4482: nonstandard extension used: enum 'main::GameState' used in qualified name
+     1>c:\users\travis\documents\school files\cop1000\projects\tetris\tetris\main.cpp(200): warning C4482: nonstandard extension used: enum 'main::GameState' used in qualified name
+     1>c:\users\travis\documents\school files\cop1000\projects\tetris\tetris\main.cpp(213): warning C4482: nonstandard extension used: enum 'main::GameState' used in qualified name
+     1>c:\users\travis\documents\school files\cop1000\projects\tetris\tetris\main.cpp(222): warning C4482: nonstandard extension used: enum 'main::GameState' used in qualified name
+     1>c:\users\travis\documents\school files\cop1000\projects\tetris\tetris\main.cpp(329): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(451) : see declaration of '_itoa'
+     1>c:\users\travis\documents\school files\cop1000\projects\tetris\tetris\main.cpp(330): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(451) : see declaration of '_itoa'
+     1>c:\users\travis\documents\school files\cop1000\projects\tetris\tetris\main.cpp(334): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(451) : see declaration of '_itoa'
+     1>c:\users\travis\documents\school files\cop1000\projects\tetris\tetris\main.cpp(351): warning C4018: '<' : signed/unsigned mismatch
+         Brick.cpp
+     1>c:\users\travis\documents\school files\cop1000\projects\tetris\tetris\brick.cpp(8): warning C4244: 'initializing' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\travis\documents\school files\cop1000\projects\tetris\tetris\brick.cpp(9): warning C4244: 'initializing' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\travis\documents\school files\cop1000\projects\tetris\tetris\brick.cpp(17): warning C4244: 'initializing' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\travis\documents\school files\cop1000\projects\tetris\tetris\brick.cpp(18): warning C4244: 'initializing' : conversion from 'unsigned int' to 'float', possible loss of data
+         Generating Code...
+     1>c:\users\travis\documents\school files\cop1000\projects\tetris\tetris\tetrisfunctions.cpp(628): warning C4715: 'IsRotationCollision' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Travis\Documents\School Files\COP1000\Projects\tetris\Debug\tetris.exe" /NOLOGO "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-network-d.lib" "sfml-audio-d.lib" "sfml-graphics-s-d.lib" "sfml-window-s-d.lib" "sfml-system-s-d.lib" "sfml-audio-s-d.lib" "sfml-network-s-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\tetris.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Travis\Documents\School Files\COP1000\Projects\tetris\Debug\tetris.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Travis\Documents\School Files\COP1000\Projects\tetris\Debug\tetris.lib" /MACHINE:X86 Debug\Brick.obj
+         Debug\main.obj
+         Debug\TetrisFunctions.obj
+         tetris.vcxproj -> C:\Users\Travis\Documents\School Files\COP1000\Projects\tetris\Debug\tetris.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Travis\Documents\School Files\COP1000\Projects\tetris\Debug\tetris.exe;#1" /manifest Debug\tetris.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\tetris.unsuccessfulbuild".
+         Touching "Debug\tetris.lastbuildstate".
+     1>Done Building Project "C:\Users\Travis\Documents\School Files\COP1000\Projects\tetris\tetris\tetris.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.80

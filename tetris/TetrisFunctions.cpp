@@ -666,12 +666,6 @@ void ClearRow(vector<Brick>* brickList, int yPosToClear, bool gameBoard[GB_HEIGH
 			{
 				gameBoard[currentBrick.GetSpriteYPosition(j)][currentBrick.GetSpriteXPosition(j)] = true;
 			}
-
-			else if (currentBrick.GetSpriteDeletionStatus(j) && gameBoard[currentBrick.GetSpriteYPosition(j)][currentBrick.GetSpriteXPosition(j)])
-			{
-				cout << "CAUTION! INVISIBLE BRICK SPRITE AT (" << currentBrick.GetSpriteXPosition(j) << "," 
-					 << currentBrick.GetSpriteYPosition(j) << ")" << endl;
-			}
 		}
 	}
 }
